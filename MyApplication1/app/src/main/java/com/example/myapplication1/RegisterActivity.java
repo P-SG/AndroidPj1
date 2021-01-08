@@ -17,7 +17,7 @@ public class RegisterActivity extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... strings) {
         try {
             String str;
-
+            //주석
             // 접속할 서버 주소 (이클립스에서 android.jsp 실행시 웹브라우저 주소)
             URL url = new URL("http://192.168.219.109:8090/Android_Web/androidDB.jsp");
 

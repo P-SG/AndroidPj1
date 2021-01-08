@@ -9,10 +9,15 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     Button registerBtn;
     EditText idet, pwet;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
